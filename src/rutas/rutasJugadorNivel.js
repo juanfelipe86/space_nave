@@ -5,4 +5,4 @@ const jugadorNivelControlador = require('../controladores/jugadorNivelControlado
 
 enrutador.post('/registrarPuntaje',jugadorNivelControlador.registrarPuntaje);
 enrutador.get('/obtener/:cedula',jugadorNivelControlador.obtenerPuntajePorJugador);
-module.exports = enrutador;
+module.exports = enrutador;

@@ -1,3 +1,4 @@
+
 module.exports = (sequelize, DataTypes) => {
     return sequelize.define('Jugador', {
         cedula: {
@@ -16,5 +17,5 @@ module.exports = (sequelize, DataTypes) => {
     }, {
       tableName: 'jugador',
       timestamps: true,
-    });
-};
+    });
+}; 

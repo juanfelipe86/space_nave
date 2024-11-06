@@ -1,3 +1,4 @@
+
 module.exports = (sequelize, DataTypes) => {
     return sequelize.define('JugadorNivel', {
         id: {
@@ -25,5 +26,6 @@ module.exports = (sequelize, DataTypes) => {
     }, {
       tableName: 'jugadornivel',
       timestamps: true,
-  });
+    });
 };
+  

@@ -1,6 +1,7 @@
 require('dotenv').config();
 
 const { Sequelize,DataTypes } = require('sequelize');
+
 const jugadorModelo = require('../modelos/jugador');
 const nivelModelo = require('../modelos/nivel');
 const jugadorNivelModelo = require('../modelos/jugadorNivel');
@@ -14,6 +15,7 @@ const sequelize = new Sequelize(
     dialect: process.env.DB_DIALECT
   }
 );
+
 const Jugador = jugadorModelo(sequelize, DataTypes);
 const Nivel = nivelModelo(sequelize, DataTypes);
 const JugadorNivel = jugadorNivelModelo(sequelize, DataTypes);
@@ -30,5 +32,5 @@ module.exports = {
     Jugador,
     Nivel,
     JugadorNivel,
-    sequelize
+    sequelize
 };

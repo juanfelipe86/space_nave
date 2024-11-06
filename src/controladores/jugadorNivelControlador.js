@@ -1,3 +1,4 @@
+
 const { JugadorNivel } = require('../baseDatos');
 
 const registrarPuntaje = async (req, res) => {

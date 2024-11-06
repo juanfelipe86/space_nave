@@ -1,3 +1,4 @@
+
 const { Jugador } = require('../baseDatos');
 
 const registrarJugador = async (req, res) => {

@@ -1,3 +1,4 @@
+
 module.exports = (sequelize, DataTypes) => {
     return sequelize.define('Nivel', {
         id: {
@@ -16,5 +17,5 @@ module.exports = (sequelize, DataTypes) => {
     }, {
       tableName: 'nivel',
       timestamps: true,
-    });
-};
+    });
+}; 
