@@ -11,6 +11,7 @@ module.exports = (sequelize, DataTypes) => {
               model: 'jugador',
               key: 'cedula'
             }
+          },
           nivelId: {
             type: DataTypes.INTEGER,
             references: {
